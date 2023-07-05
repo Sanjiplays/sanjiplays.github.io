@@ -1,0 +1,60 @@
+* {
+    --white : hsl(0, 0%, 100%);
+    --light-gray : hsl(212, 45%, 89%);
+    --grayish-blue : hsl(220, 15%, 55%);
+    --dark-blue : hsl(218, 44%, 22%);
+
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    border: solid red 1px;
+}
+
+
+
+body {
+    background-color: var(--light-gray);
+    color: var(--dark-blue);
+    padding: 0;
+    margin: 0;
+    width: 1440px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    width: 250px;
+    height: 400px;
+    background: var(--white);
+    border-radius: 20px;
+
+    padding: 10px;
+
+    justify-content: center;
+    align-items: stretch;
+    text-align: center;
+    border: none;
+}
+
+#qrCode {
+    width: 225px;
+    height: 225px;
+    border-radius: 8px;
+
+}
+.attribution {
+    display: none;
+
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
