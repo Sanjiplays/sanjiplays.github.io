@@ -3,12 +3,16 @@
     --light-gray : hsl(212, 45%, 89%);
     --grayish-blue : hsl(220, 15%, 55%);
     --dark-blue : hsl(218, 44%, 22%);
-
+	
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
+	border: red solid 1px;
 }
 
-
+html{ 
+	width: 1440px;
+	height: 800px;
+}
 
 body {
     background-color: var(--light-gray);
@@ -21,11 +25,12 @@ body {
     flex-direction: row;
 
     justify-content: center;
+	align-content: center;
     align-items: center;
 }
 
 #container {
-    display: flex;
+    display: center;
     flex-direction: row;
     flex-wrap: wrap;
 
@@ -49,6 +54,8 @@ body {
 
 }
 .attribution {
+	position: relative;
+	top: 400px;
     font-size: 11px;
     text-align: center;
 }
